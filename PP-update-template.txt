@@ -1,0 +1,81 @@
+please review:
+thumbnail updated here --> 
+
+image, text, and PDF updated here --> 
+
+Thanks!
+Bryon
+
+<!-- new projects -->
+
+NEW PROJECT
+
+please review:
+thumbnail and source code added here --> 
+
+image, text, PDF, and source code added here --> 
+
+SOURCE CODE USED --> WCPROJ#
+
+Thanks!
+Bryon
+
+Edit small group
+Image: thumbnail
+
+link: /pages/pageContent.asp?page_id=#
+
+leader name: sample
+leader email: sample@sample.com
+
+
+PROJECT NAME - PROJECT# - LOCATION
+
+small group body:
+
+<!--text from project word doc teaser-->
+
+
+<!-- form html code -->
+
+<form action="https://cross[???**international** or **catholic1**].foxycart.com/cart" method="post">
+<input type="hidden" value="PROJECT NAME - CITY, COUNTRY" name="name" /> 
+<input type="hidden" value=" #" name="code" />
+amount: $<input type="text" name="price" class="amount" />
+<input type="submit" value="Donate Now!" />
+</form>
+
+CATEGORIZE THIS SMALL GROUP
+CATEGORIES CHECK BOXES **!DON'T CHECK FULLY FUNDED UNLESS DIRECTED!**
+PRICES
+REGIONS
+
+
+<!-- code for Project Pages --> 
+
+# - PROJECT - CITY, COUNTRY
+
+<br />
+<style type="text/css">
+    #pageName{display:none;}
+    #pageHeader{margin: 0 0 30px;}
+</style>
+<div id="light" class="white_content">
+<h1>PROJECT NAME  &ndash; PROJECT # &ndash; CITY, COUNTRY</h1>
+<h2>Category: #</h2>
+<table cellspacing="0" cellpadding="0" border="0">
+    <tbody>
+        <tr>
+            <td class="image"><img alt="" src="#" /></td>
+            <td class="groupInfo">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur pulvinar quam, eget pharetra erat suscipit at. Duis porttitor tempus luctus. Vestibulum velit massa, ultricies venenatis laoreet id, tempor at diam. Sed tristique orci id euismod eleifend. Phasellus eget pretium nisi. Sed sagittis porttitor risus, et consequat purus volutpat nec. Vestibulum volutpat leo eu ex molestie placerat. Nunc non aliquam justo. Etiam facilisis, tellus vitae dignissim viverra, lorem mauris consequat dui, ut dapibus diam massa eu elit. &nbsp;<a href="#" target="_blank"><strong>Click here</strong></a> for more info or donate now below.</p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<form action="https://crosscatholic1.foxycart.com/cart" method="post">
+<input value="PROJECT NAME – CITY" name="name" type="hidden" /> <input value="WCPROJ#" name="code" type="hidden" />
+amount: $<input name="price" class="amount" type="text" />
+<input value="Donate Now!" type="submit" />
+</form>
+</div>
