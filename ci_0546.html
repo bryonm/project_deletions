@@ -1,0 +1,331 @@
+﻿<style type="text/css">
+    #pageName{display:none;}
+    #pageHeader{margin: 0 0 30px;}
+    .dropbtn_contain{
+    display: none;
+    }
+    .education_programs_title_bar{
+    margin: 15px 0;
+    width: 100%;
+    color: #ffffff;
+    background-color: #f39c12;
+    text-align: center;
+    font-size: 34px;
+    line-height: 40px;
+    font-family: 'PaktBlack', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-top: 5px;
+    }
+    .project_box_row{
+    margin: 15px auto;
+    max-width: 720px;
+    }
+    .project_box_container{
+    max-width: 655px;
+    margin: 0 auto;
+    }
+    .project_box_edu {
+    box-sizing: border-box;
+    width: 305px;
+    min-height: auto;
+    border-top: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 11px solid #f39c12;
+    border-left: 1px solid #d0d0d0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    }
+    .project_box_edu img{
+    width: 100%;
+    height: auto;
+    }
+    .project_box_row img{
+    width: 100%;
+    height: auto;
+    max-width: 720px;
+    }
+    .project_title_edu{
+    margin-top: 5px;
+    width: 100%;
+    height: auto;
+    color: #f39c12;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 120%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    }
+    .project_box_edu p{
+    padding: 10px;
+    font-size: 13px;
+    line-height: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .amount{
+    width: 150px;
+    padding: 2px 10px;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 1px 3px #dddddd inset;
+    border-radius: 1px;
+    text-align: center;
+    }
+    .formdiv{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 25px;
+    }
+    .give_button_edu{
+    clear: left;
+    width: auto;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #f39c12;
+    margin-top: 5px;
+    display: inline-block;
+    text-align: center;
+    -webkit-appearance: none;
+    }
+    .project_box_description {
+    box-sizing: border-box;
+    width: 305px;
+    min-height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    }
+    .project_box_description p{
+    padding: 5px;
+    font-size: 13px;
+    line-height: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .pdf {
+    margin-top: -15px;
+    }
+    .pdf p{
+    vertical-align: top;
+    line-height: 150%;
+    padding: 25px;
+    text-align: left;
+    font-weight: bold;
+    }
+    .pdf img{
+    float: left;
+    margin-right: 10px;
+    max-width: 75px;
+    }
+    /*---- MOBILE STYLE ----*/
+    @media only screen and (max-width: 1015px){
+    #group_nav{
+    display: none !important;
+    }
+    /* mobile drop down menu */
+    /* Dropdown Button */
+    .dropbtn_contain{
+    display: block;
+    max-width: 684px;
+    margin: 0 auto;
+    }
+    .dropbtn {
+    background-color: #F2EFE4;
+    width: 215px;
+    color: #3d3122;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border:1px solid #cbab86;
+    border-radius: 3px;
+    z-index: 9;
+    }
+    .dropbtn_div {
+    background-color: #F2EFE4;
+    width: 215px;
+    color: #3d3122;
+    padding: 8px;
+    font-size: 16px;
+    margin: 5px;
+    border:1px solid #cbab86;
+    border-radius: 3px;
+    z-index: 9;
+    text-align: center;
+    box-sizing: border-box;
+    }
+    .dropbtn_div a{
+    color: #3d3122 !important;
+    }
+    /* The container
+    <div> - needed to position the dropdown content */
+    .dropdown {
+    position: relative;
+    display: inline-block;
+    }
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+    display: none;
+    margin-left: 45px;
+    position: absolute;
+    background-color: #3d3122;
+    min-width: 200px;
+    border-bottom:5px solid #3d3223;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    }
+    /* Links inside the dropdown */
+    .dropdown-content a {
+    font-family:arial;
+    color: #3d3122;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin-top: -10px;
+    background-color: #F2EFE4;
+    }
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+    background-color: #fff;
+    }
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+    display: block;
+    z-index: 999;
+    }
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+    background-color: #F2EFE4;
+    }
+    .arrow {
+    float:right;
+    font-size: 75%;
+    }
+    @media only screen and (max-width: 736px){
+    .dropdown{
+    width: 98%;
+    }
+    .dropbtn {
+    width: 100% !important;
+    display: block;
+    }
+    .dropbtn_div {
+    width: 100% !important;
+    display: block;
+    }
+    .dropdown-content {
+    width: 75%;
+    }
+    }
+    @media only screen and (max-width: 692px){
+    .project_box_edu{
+    display: block;
+    margin: 15px auto;
+    }
+    .project_box_description{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    }
+    }
+    @media only screen and (max-width: 345px){
+    .project_box_edu{
+    width: 97%;
+    }
+    .project_box_description{
+    width: 97%;
+    }
+    }
+</style>
+<!-- MOBILE MENU Drop Down -->
+<div class="dropbtn_contain">
+<div class="dropdown">
+<div class="dropbtn_div"><a href="http://www.crossinternational.org/projects">CATALOG HOME</a></div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">CHOOSE A CATEGORY<span class="arrow">▼</span></button>
+<div class="dropdown-content">
+<a href="http://www.crossinternational.org/cataloggreatestneeds">Greatest Needs</a>
+<a href="http://www.crossinternational.org/catalogfeeding">Feeding Programs</a>
+<a href="http://www.crossinternational.org/catalogeducation">Education</a>
+<a href="http://www.crossinternational.org/catalogempower">Empowering the Poor</a>
+<a href="http://www.crossinternational.org/catalogwater">Water</a>
+<a href="http://www.crossinternational.org/catalogmedical">Medical</a>
+<a href="http://www.crossinternational.org/cataloghousing">Housing</a>
+<a href="http://www.crossinternational.org/catalogorphans">Orphans</a><!--
+<a href="http://www.crossinternational.org/catalogantitrafficking">Anti-trafficking</a>-->
+<a href="http://www.crossinternational.org/catalogdisasterrelief">Disaster Relief</a>
+<a href="http://www.crossinternational.org/catalogshipping">Shipping</a>
+<a href="http://www.crossinternational.org/monthlygiving">Monthly Donor</a>
+<a href="http://www.crossinternational.org/investinthem">Major Gifts</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">CHOOSE A REGION<span class="arrow">▼</span></button>
+<div class="dropdown-content">
+<a href="http://www.crossinternational.org/catalogafrica">Africa</a>
+<!--
+<a href="http://www.crossinternational.org/catalogasia">Asia</a>
+-->
+<a href="http://www.crossinternational.org/catalogcaribbean">Caribbean</a>
+<a href="http://www.crossinternational.org/cataloglatinamerica">Latin America</a>
+</div>
+</div>
+</div>
+<!-- PROJECT ASSETS -->
+<div class="project_box_row">
+<!-- HEADER IMAGE -->
+<img src="http://www.crossinternational.org/uploads/CI_ProjectCatalog_Education.jpg" alt="Education Program" />
+<!-- PROJECT INFO -->
+<!-- title bar-->
+<div class="education_programs_title_bar">EDUCATION PROGRAMS</div>
+<div class="project_box_container">
+<!-- project box - New World Christian School -->
+<div class="project_box_edu">
+<img src="http://www.crossinternational.org/uploads/CI_0546_FACESEcuador_CartImg.jpg" alt="New World Christian School" />
+<div class="project_title_edu">New World Christian School</div>
+<p><strong>Valle de los Sillos, Ecuador</strong><br />
+Project 0546<br />
+<br />
+Provide a Christian education and
+vocational training for at-risk youth
+who have been forced by extreme
+poverty to work in the streets.<br />
+<br />
+<!--
+<a href="http://www.crossinternational.org/0546"><strong>Learn More</strong></a><br />
+<br />
+
+<strong>Recommended Gift:</strong> Any Amount Helps--></p>
+<div class="formdiv">
+<form action="https://crossinternational.foxycart.com/cart" method="post">
+    <input name="name" value="New World Christian School" type="hidden" />
+    <input name="code" value="WHPROJ0546" type="hidden" />
+    <input class="amount" name="price" placeholder="Enter $$ Amount" type="text" />&nbsp;<input class="give_button_edu" value="Add to Cart" type="submit" />
+</form>
+</div>
+</div>
+<!-- project text -->
+<div class="project_box_description">
+<h3>New World Christian School - Valle de los Sillos, Ecuador
+</h3>
+<p>You can provide a Christian education and vocational training for at-risk youth in Ecuador who have been forced by poverty to work in the city streets. <br />
+<br />
+A gift to Cross International will help cover teachers&rsquo; salaries to educate students who attend night classes at New World Christian School, a program tailored to meet the particular needs of poor, working youth. With your support, the school will put Bibles in the hands of the poor and give them the ability to read God&rsquo;s words on the pages!</p>
+<p><a href="http://www.crossinternational.org/uploads/FY2019-0546.PDF" target="_blank"><strong>Read the PDF to Learn More</strong></a></p>
+</div>
+</div>
+</div>
+<!-- project box row -->
+<div style="clear: both;">&nbsp;</div>
+<!-- DISCLAIMER TEXT -->
+<p>We meticulously honor the intent of our donors. 100% of all proceeds are restricted for the specific project for which they are raised. In the rare event that more funds are received than are required for a specific project, the additional funds will be used to meet the most urgent needs of the poor.<br />
+<br />
+All donations made to Cross International are tax deductible and receipts will be provided. If you choose to contribute without seeking additional information, please remember to include the project name and number with your gift. Thank you and may God bless you! <br />
+<br />
+For more information, e-mail us at <a href="mailto:info@crossinternational.org">info@crossinternational.org</a> and include the project number in the correspondence. Thank you!
+</p>
